@@ -1,0 +1,36 @@
+# Configuration for creating summary plots across assays.
+
+# --------------------------------------------------------------------------------------
+# Define how to create an integrated set of line plots and heat maps that summarizes
+# antibody escape alongside other assays (eg, functional effects of mutations).
+# --------------------------------------------------------------------------------------
+
+all_antibodies_and_cell_entry:
+  min_times_seen: 2  # only include mutations with times_seen >= this
+  min_frac_models: 0  # only include mutations in >= this fraction of models
+  alphabet: ['R','K','H','D','E','Q','N','S','T','Y','W','F','A','I','L','M','V','G','P','C','*']  # amino acids to include
+  init_floor_escape_at_zero: true  # initially floor site escape to be >= 0?
+  init_site_escape_stat: sum  # initially show site escape as this statistic
+  antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
+    antibodies:  # name each set of antibodies
+      stat: escape_median  # statistic to use for escape
+      positive_color: "#56B4E9"  # light blue, positive heatmap color
+      negative_color: "#E69F00"  # orange, negative heatmap color
+      max_at_least: 1  # make heatmap max at least
+      min_at_least: -1  # make heatmap min at least this
+      antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
+        '007': results/antibody_escape/averages/007_mut_effect.csv
+        '10_1074': results/antibody_escape/averages/10-1074_mut_effect.csv
+        BG18: results/antibody_escape/averages/BG18_mut_effect.csv
+        PGT121: results/antibody_escape/averages/PGT121_mut_effect.csv
+        PGT128: results/antibody_escape/averages/PGT128_mut_effect.csv
+  other_phenotypes:
+    entry into TZM_bl cells:  
+      csv: results/func_effects/averages/TZM-bl_entry_func_effects.csv  # CSV w data
+      stat: effect  # column to plot
+      positive_color: "#009E73"  # green
+      negative_color: "#F0E442"  # yellow
+      max_at_least: 1
+      min_at_least: 0
+      init_min_value: -3  # initial min value in slider
+      
