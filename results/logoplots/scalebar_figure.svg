@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-02-05T19:09:02.427352</dc:date>
+    <dc:date>2025-02-06T07:49:56.889374</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,60 +37,60 @@ L 7.2 7.2
 z
 " style="fill: #ffffff"/>
    </g>
-   <g clip-path="url(#p6eeabc8c76)">
+   <g clip-path="url(#p7e19302656)">
     <image xlink:href="data:image/png;base64,
-iVBORw0KGgoAAAANSUhEUgAAARAAAAAfCAYAAAAvK5J0AAABOElEQVR4nO3USW7EIBAF0HLuf4pcL2cIlYUnwHSnVev3JItmKMBx9Lf2852RGREZd9um/j9txF6TGRFHO/TPsbnfIvJ3PG9ZN8+3+579+use7+6Sz6d1vyPez38y/thjseebJ49XufpH/bPN45Xy+POM7b7Fff6rfe6axdzZvDgj+5rrytm157quJqa6qSamfWIxlvGsHfrdvYfPEvtnO5/+07T7NV+PxTy/DfNtXrsa++icbb9jdPXd7+jWt2nvtjin5TaMXf9iXX9cv9hjOici4isAigQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlfxy+zNzQQDiTAAAAAElFTkSuQmCC" id="image5f0fdd65a9" transform="scale(1 -1) translate(0 -22.32)" x="7.2" y="-7.056" width="195.84" height="22.32"/>
+iVBORw0KGgoAAAANSUhEUgAAARAAAAAfCAYAAAAvK5J0AAABOElEQVR4nO3USW7EIBAF0HLuf4pcL2cIlYUnwHSnVev3JItmKMBx9Lf2852RGREZd9um/j9txF6TGRFHO/TPsbnfIvJ3PG9ZN8+3+579+use7+6Sz6d1vyPez38y/thjseebJ49XufpH/bPN45Xy+POM7b7Fff6rfe6axdzZvDgj+5rrytm157quJqa6qSamfWIxlvGsHfrdvYfPEvtnO5/+07T7NV+PxTy/DfNtXrsa++icbb9jdPXd7+jWt2nvtjin5TaMXf9iXX9cv9hjOici4isAigQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlAgQoEyBAmQABygQIUCZAgDIBApQJEKBMgABlfxy+zNzQQDiTAAAAAElFTkSuQmCC" id="image003ed72a7e" transform="scale(1 -1) translate(0 -22.32)" x="7.2" y="-7.056" width="195.84" height="22.32"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m73371fae10" d="M 0 0 
+       <path id="m863d011a9d" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m73371fae10" x="39.478297" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m863d011a9d" x="39.069038" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="39.478297" y="45.494125" transform="rotate(-0 39.478297 45.494125)">−4</text>
+      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="39.069038" y="45.494125" transform="rotate(-0 39.069038 45.494125)">−4</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m73371fae10" x="80.233723" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m863d011a9d" x="79.926778" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="80.233723" y="45.494125" transform="rotate(-0 80.233723 45.494125)">−3</text>
+      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="79.926778" y="45.494125" transform="rotate(-0 79.926778 45.494125)">−3</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m73371fae10" x="120.989149" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m863d011a9d" x="120.784519" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="120.989149" y="45.494125" transform="rotate(-0 120.989149 45.494125)">−2</text>
+      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="120.784519" y="45.494125" transform="rotate(-0 120.784519 45.494125)">−2</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m73371fae10" x="161.744574" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m863d011a9d" x="161.642259" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="161.744574" y="45.494125" transform="rotate(-0 161.744574 45.494125)">−1</text>
+      <text style="font: 12px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="161.642259" y="45.494125" transform="rotate(-0 161.642259 45.494125)">−1</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m73371fae10" x="202.5" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m863d011a9d" x="202.5" y="29.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -125,7 +125,7 @@ L 202.5 7.2
   </g>
  </g>
  <defs>
-  <clipPath id="p6eeabc8c76">
+  <clipPath id="p7e19302656">
    <rect x="7.2" y="7.2" width="195.3" height="22.176"/>
   </clipPath>
  </defs>
