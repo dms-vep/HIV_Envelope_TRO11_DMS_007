@@ -57,3 +57,4 @@ results/dms-viz/.ipynb_checkpoints*
 !results/escape_PDBs/*
 !results/logoplots
 !results/logoplots/*
+results/logoplots/.ipynb_checkpoints*

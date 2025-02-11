@@ -50,7 +50,7 @@ rule color_PDB_structures:
 rule func_effects_reference_sites: 
     """Add reference sites to functional effects dataframe"""
     input: 
-        functional_data="results/func_effects/averages/TZM-bl_entry_func_effects.csv",
+        functional_data="data/TZM-bl_entry_func_effects.csv",
     output:
         output_file = os.path.join("results/func_effects/averages/TZM-bl_entry_func_effects_references_sites.csv"),
     log:
@@ -67,7 +67,7 @@ rule format_dms_viz:
             antibody_escape_pdbs[wc.antibody]
         ),
         site_map="data/site_numbering_map.csv",
-        functional_data="results/func_effects/averages/TZM-bl_entry_func_effects_references_sites.csv",
+        functional_data="results/func_effects/averages/TZM-bl_entry_func_effects_references_sites.csv",    
     output: 
         output_json_file_name = os.path.join("results/dms-viz/", "{assay}", "{antibody}" + ".json"),
     params:
@@ -129,6 +129,7 @@ rule V3_logo_plots:
         "results/antibody_escape/averages/PGT128_mut_effect.csv",
         "results/antibody_escape/averages/BG18_mut_effect.csv",
         "data/site_numbering_map.csv",
+        "data/TZM-bl_entry_func_effects.csv",
         nb="notebooks/V3_logoplots.ipynb",
     output:
         "results/logoplots/007_logoplot.svg",
