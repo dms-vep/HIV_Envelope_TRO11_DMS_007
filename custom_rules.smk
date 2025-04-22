@@ -14,6 +14,18 @@ chains_to_exclude = antibody_escape_config["chains_to_exclude"]
 
 antibody_gv = [x for x in antibody_escape_config['avg_antibody_escape']]
 
+rule copy_func_effects:
+    """Copy functional effects from previous analyses into results for later rules"""
+    input:
+        "data/TZM-bl_entry_func_effects.csv",
+    output:
+        "results/func_effects/averages/TZM-bl_entry_func_effects.csv",
+    shell:
+        """
+        mkdir -p results/func_effects/averages/
+        scp data/TZM-bl_entry_func_effects.csv results/func_effects/averages/TZM-bl_entry_func_effects.csv
+        """
+
 rule spatial_distances:
     """Get spatial distances from PDB."""
     input: 

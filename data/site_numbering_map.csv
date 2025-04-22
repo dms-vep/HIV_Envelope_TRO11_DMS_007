@@ -329,8 +329,8 @@ sequential_site,sequential_wt,reference_site,reference_wt,region
 328,T,320,I,V3 loop
 329,G,321,G,V3 loop
 330,D,322,K,V3 loop
-331,I,322a,-,V3 loop
-332,I,323,I,V3 loop
+331,I,323,I,V3 loop
+332,I,323a,-,V3 loop
 333,G,324,G,V3 loop
 334,D,325,N,V3 loop
 335,I,326,M,V3 loop
